@@ -8,6 +8,11 @@ public interface ISalasService {
 
     void delete(Salas salas);
 
+    void modificar(Salas salas);
+
+
+
+
     List<Salas> findAll();
 
     Salas findByid(long id);

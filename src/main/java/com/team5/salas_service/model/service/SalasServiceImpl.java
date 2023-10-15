@@ -16,6 +16,11 @@ public class SalasServiceImpl implements ISalasService {
 
     @Override
     public void delete(Salas salas) {salasDao.delete(salas); }
+
+    @Override
+    public void modificar(Salas salas) {salasDao.save(salas);
+    }
+
     @Transactional(readOnly = true)
     @Override
     public List<Salas> findAll() {
