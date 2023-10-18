@@ -10,7 +10,8 @@ public interface ISalasService {
 
     void modificar(Salas salas);
 
-
+    // cantidad disponible de computadores de la sala
+    void cantComputadores(Salas salas);
 
 
     List<Salas> findAll();

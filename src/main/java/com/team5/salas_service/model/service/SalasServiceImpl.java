@@ -21,6 +21,9 @@ public class SalasServiceImpl implements ISalasService {
     public void modificar(Salas salas) {salasDao.save(salas);
     }
 
+    @Override
+    public void cantComputadores(Salas salas) {salasDao.save(salas);
+    }
     @Transactional(readOnly = true)
     @Override
     public List<Salas> findAll() {
