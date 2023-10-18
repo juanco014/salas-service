@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface ISalasService {
 
-    void delete(Salas salas);
+   void delete(Salas salas);
 
     void modificar(Salas salas);
 

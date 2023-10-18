@@ -14,8 +14,9 @@ public class SalasServiceImpl implements ISalasService {
     @Autowired
     ISalasDao salasDao;
 
+
     @Override
-    public void delete(Salas salas) {salasDao.delete(salas); }
+    public void delete (Salas salas){salasDao.delete(salas);}
 
     @Override
     public void modificar(Salas salas) {salasDao.save(salas);
