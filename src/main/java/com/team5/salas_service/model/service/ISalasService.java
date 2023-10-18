@@ -13,8 +13,11 @@ public interface ISalasService {
     // cantidad disponible de computadores de la sala
     void cantComputadores(Salas salas);
 
+ // cantidad disponible de mesas de la sala
+ void cantMesas(Salas salas);
 
-    List<Salas> findAll();
+
+ List<Salas> findAll();
 
     Salas findByid(long id);
 
