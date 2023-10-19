@@ -17,4 +17,5 @@ public class Salas {
     @Id
     private long id;
     private String salas;
+    private String cant;
 }
