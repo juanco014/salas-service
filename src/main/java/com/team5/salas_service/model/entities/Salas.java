@@ -18,4 +18,5 @@ public class Salas {
     private long id;
     private String salas;
     private String cant;
+    private String cantmesas;
 }
