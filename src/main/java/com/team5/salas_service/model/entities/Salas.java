@@ -19,4 +19,5 @@ public class Salas {
     private String salas;
     private String cant;
     private String cantmesas;
+    private String estado;
 }
