@@ -17,7 +17,7 @@ public class Salas {
     @Id
     private long id;
     private String salas;
-    private String cant;
+    private String cantComputadores;
     private String cantmesas;
     private String estado;
 }
